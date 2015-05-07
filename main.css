@@ -1,3 +1,6 @@
+*{
+	border: solid 1px red;
+}
 
 body{
 	margin: 0;
@@ -28,12 +31,11 @@ header{
 	margin-left: 141px;
 	margin-top: 10px;
 }
-
-
 .tspan{
 	margin-top: -32px;
 	display: block;
 }
+
 
 
 .rightside{
@@ -58,6 +60,10 @@ h2{
 	text-align: center;
 }
 
+.main p{
+	padding-top:0;
+}
+
 .topctr{
 	/*position: relative;*/
 	/*text-align: center;*/
@@ -69,7 +75,7 @@ h2{
 }
 
 nav {
-	font-family: 'Ubuntu', sans-serif;	
+	font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -82,17 +88,24 @@ h3{
 	/*margin-top: -80px;*/
 }
 
-.headline h2{
+.headline h4{
 	font-family: 'Ubuntu', sans-serif;
+	font-size: smaller;
 }
 
-.mainbody div{
-	padding-top: 524px;
-	width: 1008;
-	height: 1008px;
+section{
+	width: 65%;
+	float: left;
+	height: auto;
 }
 
-.main p{
-	padding-top:0;
+.sidebar div{
+	width = 100%;
+	height= 100%;
 }
+.sideav{
+	display: block;
+	float:left;
+	position: relative;
+
 
