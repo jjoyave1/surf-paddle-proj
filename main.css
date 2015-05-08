@@ -59,14 +59,6 @@ h2{
 	font-size: 100px;
 	text-align: center;
 }
-
-.main{
-	font-family: "Open Sans", sans-serif;
-}
-.main p{
-	padding-top:0;
-}
-
 .topctr{
 	/*position: relative;*/
 	/*text-align: center;*/
@@ -81,9 +73,17 @@ nav {
 	font-family: 'Ubuntu', sans-serif;
 }
 
+.main{
+	font-family: "Open Sans", sans-serif;
+}
+.main p{
+	padding-top:0;
+}
+
+
 
 h3{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin: 0 0 0 0;
 	font-size: smaller;
 	/*position: relative;*/
@@ -96,7 +96,7 @@ h3{
 	font-size: smaller;
 }
 
-main{
+.main{
 	margin-left: 110px;
 	margin-right: 110px;
 }
@@ -108,7 +108,7 @@ section{
 
 h4{
 	font-family: 'Oswald', sans-serif;
-	font-size: 4em;
+	font-size: 3em;
 	color: #083452;
 }
 
@@ -116,14 +116,16 @@ h4{
 	float: left;
 	display: block;
 	font-family: 'Open Sans', sans-serif;
-	font-size: .1em;
+	font-size: 1em;
+	text-align: center;
+	color: white;
 
 }
 .button{
-	margin-left: auto;
+	margin-left: 1em;
 	margin-right: auto;
 	float: left;
-	display: inline-block;
+	display: inline-block;;
 }
 .buttonimage{
 	width:35px;
@@ -132,12 +134,30 @@ h4{
 	margin: 0 auto;
 	float: left;
 }
+.buttonimage:hover{
+	background-color: #083452;
+}
+.bimage{
+	margin-left: 10px;
+}
 .buttontext{
 	height:30px;
 	background-color: #A3B3BF;
 	text-align: center;
 	float: left;
-	line-height:315px;
+	color: white;
+	line-height:30px;
+	padding-left: 30px;
+	padding-right:30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.button:hover .buttonimage{
+	background-color: #083452;
+}
+.button:hover .buttontext{
+	background-color: #106DB3;
+	color: white;
 }
 
 
@@ -147,6 +167,8 @@ aside{
 	display: block;
 	float: right;
 	height: auto;
+	font-family: 'Open Sans', sans-serif;
+
 }
 
 
@@ -155,7 +177,13 @@ aside{
 	height= 100%;
   display: table-cell;
   padding: 1em 1em 2em 1em;
+  text-align:center;
 }
+
+h5{
+	font-family: 'Ubuntu', sans-serif;
+}
+
 .avatar{
 	width: 84px;
 	height: 84px;
@@ -173,6 +201,50 @@ aside{
 }
 .adcap{
 	display: block;
+	text-align: right;
+}
+
+
+.area{
+	clear: both;
+	width: 100%;
+	height: auto;
+}
+.pops{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 5em;
+}
+
+.bcont{
+	display: block;
+	float: left;
+	/*position: absolute;*/
+}
+.btm-caps{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5em;
+	color: #083452;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.pics{
+	width: 25%;
+	height: auto;
+	display: inline-block;
+	position: relative;
+	float: left;
+}
+
+footer{
+	width:100%;
+	position: static;
+	height: 100px;
+	background-color: #083452;
+}
+.bot-left span{
 
 }
 
