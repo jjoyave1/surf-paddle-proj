@@ -67,6 +67,10 @@ h2{
 	padding-top: 204px;
 	padding-left: 18px;
 	font-weight: 100;
+	margin-bottom: -10px;
+}
+.subtopctr{
+	color: #062F49;
 }
 
 nav {
@@ -75,9 +79,6 @@ nav {
 
 .main{
 	font-family: "Open Sans", sans-serif;
-}
-.main p{
-	padding-top:0;
 }
 
 
@@ -91,13 +92,13 @@ h3{
 	/*margin-top: -80px;*/
 }
 
-.headline h4{
+/*.headline h4{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: smaller;
-}
+}*/
 
 .main{
-	margin-left: 110px;
+	margin-left: 162px;
 	margin-right: 110px;
 }
 section{
@@ -108,9 +109,60 @@ section{
 
 h4{
 	font-family: 'Oswald', sans-serif;
-	font-size: 3em;
+	font-size: 60;
 	color: #083452;
+	line-height: 68px;
+	margin-top: 66px;
+	margin-bottom: 6px;
 }
+.profile-line{
+	float:left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: small;
+	padding-bottom: 30px;
+	line-height: 2;
+}
+.profile .timestamp{
+	float:left;
+	display: inline;
+}
+
+.profile{
+	color: #0766AE;
+	text-decoration: none;
+}
+.profile div{
+	background-image: url('images/avatar.png');
+	background-position: center center;
+	background-size: cover;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+}
+.timestamp{
+	color: #A2B2BE;
+}
+.main p{
+	clear: both;
+	margin-left: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #4D5860;
+	font-weight: bolder;
+	font-size: 16;
+	margin-right: 25px;
+	line-height:1.5;
+
+}
+.main blockquote{
+	border-left: solid #A2B2BE;
+	color: #0766AE;
+	font-size: 28;
+	margin-left: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
 
 .buttonWrapper{
 	float: left;
@@ -119,10 +171,10 @@ h4{
 	font-size: 1em;
 	text-align: center;
 	color: white;
-
+	margin-bottom: 30px;
 }
 .button{
-	margin-left: 1em;
+	margin-left: 0.5em;
 	margin-right: auto;
 	float: left;
 	display: inline-block;;
@@ -131,14 +183,15 @@ h4{
 	width:35px;
 	height:30px;
 	background-color: #5E686F;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 	float: left;
+}
+.buttonimage img{
+	margin-top: 9px;
 }
 .buttonimage:hover{
 	background-color: #083452;
-}
-.bimage{
-	margin-left: 10px;
 }
 .buttontext{
 	height:30px;
@@ -147,10 +200,11 @@ h4{
 	float: left;
 	color: white;
 	line-height:30px;
-	padding-left: 30px;
-	padding-right:30px;
+	padding-left: 1em;
+	padding-right: 1em;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 0.8em;
 }
 .button:hover .buttonimage{
 	background-color: #083452;
@@ -179,9 +233,9 @@ aside{
   padding: 1em 1em 2em 1em;
   text-align:center;
 }
-
-h5{
-	font-family: 'Ubuntu', sans-serif;
+.sidebar a{
+	text-decoration: none;
+	/*color: #0060AB;*/
 }
 
 .avatar{
@@ -189,9 +243,22 @@ h5{
 	height: 84px;
 	background-image: url("images/avatar.png");
 	margin: auto;
+	margin-top: 70px;
+}
+.sidebar blockquote{
+	text-decoration: none;
+	color: #0060AB;
+	margin-top: 11px;
+	margin-bottom: 0px;
 }
 .socmedia{
 	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	color: #F9F9F9;
+	margin-bottom: 52px;
+}
+.socmedia a{
+	color: #A1B0BD;
 }
 .surfboardchick{
 	height: 278px;
@@ -202,6 +269,33 @@ h5{
 .adcap{
 	display: block;
 	text-align: right;
+	color: #ABB9C4;
+}
+h5{
+	font-family: 'Oswald', sans-serif;
+	color: #083452;
+	font-size: 1.1em;
+}
+.sidebar-btm{
+	padding-top: 18px;
+	margin-right:	110px;
+	margin-left: 36px;
+}
+.sidebar-btm p{
+	color: #A2B1BE;
+	font-size: smaller;
+}
+.sidebar-btm a{
+	color: #A2B1BE;
+}
+
+
+.line{
+	display:block;
+	clear: both;
+	width:100%;
+	padding-top:20px;
+	height:50px;
 }
 
 
@@ -213,22 +307,28 @@ h5{
 .pops{
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
-	font-size: 5em;
+	font-size: 4em;
+	color: #083452;
+	/*padding-top: 81px;*/
+	padding-bottom:29px;
 }
 
 .bcont{
 	display: block;
 	float: left;
+	width: 100%;
 	/*position: absolute;*/
 }
 .btm-caps{
 	font-family: 'Oswald', sans-serif;
-	font-size: 2.5em;
+	font-size: 2em;
 	color: #083452;
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	left: 15;
+	bottom: 7;
 }
+
+
 
 .pics{
 	width: 25%;
@@ -237,15 +337,76 @@ h5{
 	position: relative;
 	float: left;
 }
+.pics::after{
+	background-color: #106DB3;
+	position: absolute;
+	opacity: .4;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content:"";
+}
+
+
+.pics:hover .btm-caps{
+	color: white;
+}
+.pics:hover::after{
+	background-color: #106DB3;
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content:"";
+}
+
+
+
 
 footer{
+	clear: both;
 	width:100%;
-	position: static;
+	position: relative;
 	height: 100px;
 	background-color: #083452;
 }
-.bot-left span{
-
+.bot-left{
+	float: left;
+	display: inline-block;
+	margin-left: 163px;
+	margin-top: 26px;
+	margin-right: auto;
+}
+.iy-logo{
+	width: 46px;
+	height: 35px;
+	background-image:url('images/theironyard-logo.png');
+	float: left;
+}
+.logocap{
+	font-family: 'Open Sans', sans-serif;
+	font-size: smaller;
+	color: #A9BAC6;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 11px;
+}
+.bot-right{
+	float: right;
+	font-family: 'Open sans';
+	font-size: smaller;
+	margin-top: 37px;
+	margin-right: 165px;
+}
+.bot-right a{
+	text-decoration: none;
+	color: #A3B3BF;
+}
+.bot-right span{
+	color: #A2B2BE;
 }
 
 
