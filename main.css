@@ -303,6 +303,7 @@ h5{
 	clear: both;
 	width: 100%;
 	height: auto;
+	overflow: hidden;
 }
 .pops{
 	font-family: 'Oswald', sans-serif;
@@ -372,6 +373,7 @@ footer{
 	position: relative;
 	height: 100px;
 	background-color: #083452;
+	margin-top: -19px;
 }
 .bot-left{
 	float: left;
